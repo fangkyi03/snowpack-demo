@@ -1,7 +1,6 @@
 import './index.css'
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Layout from './components/Layout/index';
 import routerData from './router'
 import {BrowserRouter as Router,Route, Switch} from 'react-router-dom'
 ReactDOM.render(
@@ -11,9 +10,7 @@ ReactDOM.render(
         routerData.map((e,i)=>{
           return (
             <Route exact={i == 0} path={e.path}>
-              <Layout>
-                <e.component />
-              </Layout>
+              <e.component />
             </Route>
           )
         })

@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "snowpack dev",
     "build": "snowpack build",
-    "prod":"snowpack build --config ./snowpack.prod.js",
+    "prod": "snowpack build --config ./snowpack.prod.js",
     "install": "snowpack install",
     "test": "jest",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
@@ -17,7 +17,8 @@
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "snowpack": "git+https://github.com/fangkyi03/snowpack-node.git"
   },
   "devDependencies": {
     "@snowpack/app-scripts-react": "^1.1.4",
@@ -29,5 +30,6 @@
     "rollup-plugin-svelte": "^5.2.2",
     "snowpack": "^2.2.0",
     "webpack-bundle-analyzer": "^3.8.0"
-  }
+  },
+  "__npminstall_done": false
 }
