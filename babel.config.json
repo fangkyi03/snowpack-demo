@@ -1,0 +1,14 @@
+{
+  "extends": "@snowpack/app-scripts-react/babel.config.json",
+  "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "libraryDirectory": "es",
+          "style": "css"
+        }
+      ],
+      ["./babel-plugin-ant-design-icon.js"]
+  ]
+}
